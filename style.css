@@ -1,0 +1,35 @@
+:root {
+    --fundo-imagem: url("./img/paisagem1.webp"); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--fundo-imagem);
+    transition: background-image 2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    padding: 8px 12px;
+    font-size: 24px;
+}
+
+button{
+    padding: 8px 12px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgb(53, 35, 35);
+    border-bottom: white;
+    border-right: white;
+    color: white;
+    font-family: 'Minecraft', sans-serif;
+}
