@@ -3,7 +3,7 @@
 ---
 
 ## Sobre
-Projeto para trocar a cor da página utilizando JS.
+Projeto para trocar a imagem da página utilizando JS.
 
 
 ## Tecnologias Utilizadas
